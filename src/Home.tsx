@@ -1,4 +1,3 @@
-import React from 'react';
 import './Home.css';
 import Projects from './projects/Projects';
 import Menu from './Menu';

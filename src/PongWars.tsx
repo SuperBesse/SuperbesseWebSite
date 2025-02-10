@@ -1,4 +1,3 @@
-import React from 'react';
 import './PongWars.css';
 
 const PongWars = () => {
