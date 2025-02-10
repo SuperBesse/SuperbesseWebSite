@@ -1,0 +1,24 @@
+.home {}
+
+.home h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.home h3 {
+    font-size: 0.9em;
+    margin-bottom: -20px;
+    text-align: left;
+}
+
+.home h2 {
+    font-size: 1.4em;
+    text-align: left;
+    color: grey;
+}
+
+.home p {
+    font-size: 1.2em;
+    text-align: left;
+}

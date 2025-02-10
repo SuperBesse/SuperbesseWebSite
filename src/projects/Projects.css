@@ -1,0 +1,28 @@
+.projects {
+    padding: 20px;
+    text-align: center;
+}
+
+.projects h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: row;
+    /* Disposition en ligne pour le défilement horizontal */
+    overflow-x: auto;
+    /* Activer le défilement horizontal */
+    gap: 20px;
+    padding: 10px;
+    margin: 30px;
+    width: calc(3 * 300px + 1 * 100px + 3 * 70px);
+}
+
+.project-item {
+    min-width: 300px;
+    /* Largeur minimale pour chaque élément */
+    flex: 0 0 auto;
+    /* Empêche les éléments de se rétrécir */
+}
