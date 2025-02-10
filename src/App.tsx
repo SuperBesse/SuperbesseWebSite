@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import Menu from './Menu'
 import Home from './Home'
 import Projects from './projects/Projects';
+import PongWars from './PongWars';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projets" element={<Projects />} />
+        <Route path="/pong" element={<PongWars />} />
       </Routes>
     </>
   )

@@ -21,6 +21,7 @@ const personalProjectsData: Project[] = [
         technologies: ['Godot', 'MaskCollision', 'GDScript', '2D'],
         description: 'A battle between two balls with opposite color. the collision between a ball and a tile of the same color switchs the color of the collided tile. Evolution takes place without user interaction.',
         link: undefined,
+        launchLink: '/pong',
     },
     {
         id: 3,

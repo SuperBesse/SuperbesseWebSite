@@ -7,5 +7,5 @@ export type Project = {
     link?: string;
     iosLink?: string;
     androidLink?: string;
-
+    launchLink?: string;
 }

@@ -1,0 +1,11 @@
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-iframe {
+    border: none;
+    height: 800px;
+    width: 800px;
+}

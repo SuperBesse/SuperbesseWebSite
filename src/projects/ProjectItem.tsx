@@ -1,6 +1,7 @@
 import React from 'react';
 import './ProjectItem.css';
 import { Project } from './Types';
+import { Link } from 'react-router-dom';
 
 
 type ProjectItemProps = {
@@ -29,6 +30,11 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ project }) => {
                 <a href={project.androidLink} target="_blank" rel="noopener noreferrer" className="project-link">
                     Android
                 </a>
+            )}
+            {project.launchLink && (
+                <Link to="/pong" className="project-link">
+                    Launch
+                </Link>
             )}
         </div>
     );
