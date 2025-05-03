@@ -37,6 +37,7 @@ const personalProjectsData: Project[] = [
         image: multiblindtest,
         technologies: ['SwiftUI', 'deezer API'],
         description: 'My app concept involves playing multiple songs simultaneously. The goal is to identify the song title or artist. It\'s a unique blind test challenge with numerous songs playing at once.',
+        iosLink: 'https://apps.apple.com/us/app/unlimitedblindtest/id1660471619',
     },
 ];
 
